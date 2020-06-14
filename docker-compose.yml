@@ -1,0 +1,16 @@
+version: '3.6'
+services:
+  db:
+    image: postgres
+    environment:
+      - "POSTGRES_PASSWORD=password"
+      - "POSTGRES_USER=root"
+      - "POSTGRES_DB=helperv2"
+    ports:
+      - "5432:5432"
+    volumes:
+      - helperv2-database:/var/lib/postgresql/data
+
+volumes:
+  helperv2-database:
+    driver: local
