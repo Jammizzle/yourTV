@@ -6,7 +6,7 @@ import (
 
 	"html/template"
 
-	"github.com/Jammizzle/watchlist-alert/src/logging"
+	"github.com/Jammizzle/yourTV/src/logging"
 
 	"github.com/Masterminds/sprig"
 	"gopkg.in/gomail.v2"

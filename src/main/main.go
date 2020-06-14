@@ -2,13 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/Jammizzle/watchlist-alert/src/data"
-	"github.com/Jammizzle/watchlist-alert/src/logging"
-	"github.com/Jammizzle/watchlist-alert/src/models"
-	"github.com/Jammizzle/watchlist-alert/src/notification"
-
-	//"github.com/Jammizzle/watchlist-alert/src/notification"
-	"github.com/Jammizzle/watchlist-alert/src/remote"
+	"github.com/Jammizzle/yourTV/src/data"
+	"github.com/Jammizzle/yourTV/src/logging"
+	"github.com/Jammizzle/yourTV/src/models"
+	"github.com/Jammizzle/yourTV/src/notification"
+	"github.com/Jammizzle/yourTV/src/remote"
 	"io/ioutil"
 	"sort"
 	"strconv"
@@ -85,17 +83,17 @@ func main() {
 func alertSubs(subs models.Subscribers, show models.Show, episodeNumber int) {
 	for _, sub := range subs {
 		if sub.EpisodeNumber < episodeNumber {
-			if sub.ViewerPushoverID != "" {
-				if err := show.SendPushoverNotification(sub.ViewerPushoverID, episodeNumber); err != nil {
-					logging.Errorf("Failed to alert %s, err: %s", sub.ViewerName, err)
+			if sub.Viewer.PushoverID != "" {
+				if err := show.SendPushoverNotification(sub.Viewer.PushoverID, episodeNumber); err != nil {
+					logging.Errorf("Failed to send %s pushover notification, err: %s", sub.Viewer.Name, err)
 				}
 			}
-			if sub.ViewerEmail != "" {
+			if sub.Viewer.Email != "" {
 				err := notification.Mail{
-					Recipient:   sub.ViewerEmail,
+					Recipient:   sub.Viewer.Email,
 					Subject:     fmt.Sprintf("New %s episode [%d]", show.Name, episodeNumber),
 					ContentType: "text/html",
-				}.RenderAndSend("one_piece.html", sub)
+				}.RenderAndSend("base.html", sub)
 				if err != nil {
 					logging.Error(err)
 				}

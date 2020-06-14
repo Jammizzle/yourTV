@@ -10,14 +10,10 @@ type Subscription struct {
 }
 
 type Subscriber struct {
-	ViewerID         uuid.UUID `db:"viewer_id"`
-	ViewerName       string    `db:"viewer_name"`
-	ViewerEmail      string    `db:"viewer_email"`
-	ViewerPushoverID string    `db:"viewer_pushover_id"`
-	ShowID           uuid.UUID `db:"show_id"`
-	ShowName         int       `db:"show_name"`
-	EpisodeNumber    int       `db:"episode_number"`
-	SubscriptionID   uuid.UUID `db:"subscription_id"`
+	Viewer
+	Show
+	SubscriptionID uuid.UUID `db:"subscription_id"`
+	EpisodeNumber  int       `db:"episode_number"`
 }
 
 type Subscribers []Subscriber

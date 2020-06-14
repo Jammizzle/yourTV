@@ -1,4 +1,4 @@
-module github.com/Jammizzle/watchlist-alert
+module github.com/Jammizzle/yourTV
 
 go 1.14
 

@@ -2,6 +2,7 @@ package data
 
 import (
 	"fmt"
+	"github.com/Jammizzle/yourTV/src/logging"
 	"github.com/jmoiron/sqlx"
 
 	_ "github.com/jackc/pgx/stdlib"
@@ -15,23 +16,17 @@ type MysqlClient struct {
 // ContextType is the type of constants used to identify net/http contexts
 type ContextType int
 
-// Context WithValue constants
-const (
-	ContextNone               ContextType = iota // 0 - public routes
-	ContextDatabaseConnection                    // 1 - Database Connection
-)
-
 // CreateConnection will instantiate a new database connection pool
 func CreateConnection() (*MysqlClient, error) {
-	fmt.Print("Connecting to postgres server...")
-
-	// this Pings the database trying to connect, panics on error
-	// use sqlx.Open() for sql.Open() semantics
-	db, err := sqlx.Connect("pgx", "postgres://root:password@127.0.0.1:5432/helperv2")
+	logging.Info("Connecting to postgres server...")
+	db, err := sqlx.Connect("pgx", fmt.Sprintf("postgres://%s:%s@%s:%s/%s",
+		dataConfig.Username, dataConfig.Password, dataConfig.Host,
+		dataConfig.Port, dataConfig.Database,
+	))
 	if err != nil {
 		return &MysqlClient{}, err
 	}
 
-	fmt.Println("Connected")
+	logging.Info("Connected")
 	return &MysqlClient{c: db}, nil
 }

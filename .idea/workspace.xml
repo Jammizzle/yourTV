@@ -1,13 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d55f5514-80ad-4079-8360-ecc5944ca08d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/templates/one_piece.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helperv2-database/helperv2.gz" beforeDir="false" afterPath="$PROJECT_DIR$/helperv2-database/helperv2.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/shows.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/shows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/show.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/show.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/subscription.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/subscription.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/viewer.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/viewer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notification/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/notification/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notification/push.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/notification/push.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1dJfMuktd79igT30HtKK7AiVSyO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="17" y="389" key="#SQL_Dialects" timestamp="1592150044167">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="17" y="389" key="#SQL_Dialects/0.0.1792.1120@0.0.1792.1120" timestamp="1592150044167" />
+    <state x="496" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592150131566">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1592150131566" />
+    <state x="683" y="271" width="846" height="578" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1592150416988">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="683" y="271" width="846" height="578" key="#com.intellij.ide.macro.MacrosDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1592150416988" />
+    <state x="464" y="340" width="863" height="655" key="EditFileWatcherDialog" timestamp="1592150435125">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="464" y="340" width="863" height="655" key="EditFileWatcherDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1592150435125" />
+    <state width="1516" height="355" key="GridCell.Tab.0.bottom" timestamp="1592150290087">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1516" height="355" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1592150290087" />
+    <state width="1516" height="355" key="GridCell.Tab.0.center" timestamp="1592150290086">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1516" height="355" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1592150290086" />
+    <state width="1516" height="355" key="GridCell.Tab.0.left" timestamp="1592150290085">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1516" height="355" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1592150290085" />
+    <state width="1516" height="355" key="GridCell.Tab.0.right" timestamp="1592150290086">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1516" height="355" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1592150290086" />
+    <state x="427" y="210" key="SettingsEditor" timestamp="1592150496917">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="427" y="210" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1592150496917" />
+    <state x="578" y="293" width="635" height="534" key="find.popup" timestamp="1592150779137">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="578" y="293" width="635" height="534" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1592150779137" />
+    <state x="695" y="424" key="scopes" timestamp="1592150330696">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="695" y="424" key="scopes/0.0.1792.1120@0.0.1792.1120" timestamp="1592150330696" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1592150809638">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1592150809638" />
   </component>
 </project>

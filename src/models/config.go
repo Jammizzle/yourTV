@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/Jammizzle/watchlist-alert/src/logging"
+	"github.com/Jammizzle/yourTV/src/logging"
 	valid "github.com/asaskevich/govalidator"
 	"os"
 

@@ -2,7 +2,7 @@ package models
 
 import (
 	"fmt"
-	"github.com/Jammizzle/watchlist-alert/src/logging"
+	"github.com/Jammizzle/yourTV/src/logging"
 	"github.com/google/uuid"
 	"github.com/gregdel/pushover"
 	"regexp"
@@ -11,7 +11,7 @@ import (
 
 type Show struct {
 	ID      uuid.UUID `db:"show_id"`
-	Name    string    `db:"name"`
+	Name    string    `db:"show_name"`
 	URL     string    `db:"url"`
 	Pattern string    `db:"regex_pattern"`
 	Regex   *regexp.Regexp
